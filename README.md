@@ -1,4 +1,4 @@
-# File_Recovery-using-Autopsy
+# File-Recovery-using-Autopsy
 
 ## Aim
 The objective of this guide is to demonstrate how to:  
