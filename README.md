@@ -16,45 +16,49 @@ The objective of this guide is to demonstrate how to:
 ### **1. Open Disk Management**  
 - Press **Windows + X** → Click **Disk Management** 
 
- ![](./images/disk1.png)
+ ![image](https://github.com/user-attachments/assets/dedfe3e3-124b-47a6-8a77-6f5e14ae9de3)
 
 ### **2. Create a New VHD**  
 - Click **Action** (top menu) → **Create VHD**.  
 
-![](./images/disk2.png)
+![image](https://github.com/user-attachments/assets/eb2a9cf6-71e6-462e-96bb-ffd2c449838b)
 
 ### **3. Choose File Location & Size**  
 - Click **Browse** and select where to save the VHD file (e.g, `C:\new VHD.vhd`)
 - Set the **size** (e.g: `1GB`) 
 - Choose **VHD (Fixed Size)** and Click **OK**
 
-![](./images/disk3.png)
+![image](https://github.com/user-attachments/assets/0edd103e-75c0-47c1-8b6f-9bbcd8330565)
 
 ### **4. Initialize the Disk**  
 - In **Disk Management**, find your new disk (marked as "Not Initialized").  
 
-![](./images/disk4.png) 
+![image](https://github.com/user-attachments/assets/6cd94311-2021-4893-b8d2-004b8f3ccedf)
 
 - Right-click the disk → Click **Initialize Disk**.
 
-![](./images/disk5.png)
+![image](https://github.com/user-attachments/assets/94808ed3-3c78-4da7-96b7-9b5de195aa04)
 
 - Select **MBR (Master Boot Record)**. 
 
-![](./images/disk6.png)
+![image](https://github.com/user-attachments/assets/c9fe320b-c43a-4976-a9fa-6a55db92f1ec)
 
 ### **6. Create & Format the Partition**  
 - Right-click the **Unallocated Space** → Click **New Simple Volume**.  
-![](./images/disk7.png)
-![](./images/disk8.png)
-![](./images/disk9.png)
 
+![image](https://github.com/user-attachments/assets/4aab04ad-342d-40e9-87f1-88520240e2f2)
+
+![image](https://github.com/user-attachments/assets/fba807a9-8e1f-46c6-8c73-cce754ff963f)
+
+![image](https://github.com/user-attachments/assets/2d0e2562-2a21-4939-b6ea-3ae1230028be)
 
 - Click **Next** → **Click on Mount in the following empty NTFS folder** → **Browse** → **Assign a drive letter (e.g., `C: or D:`)** → **New folder** → **OK**
 
-![](./images/disk10.png)
-![](./images/disk12.png)
-![](./images/disk11.png)
+![image](https://github.com/user-attachments/assets/231dcc71-2b09-427a-97e7-691568f53633)
+
+![image](https://github.com/user-attachments/assets/eab7f3ab-7bf5-4e49-a96d-3eeb3f2242d0)
+
+![image](https://github.com/user-attachments/assets/46ba630a-fe6f-4629-b024-0f8535823d13)
 
 - Click **next** → **Finish**. 
 
@@ -78,26 +82,26 @@ The objective of this guide is to demonstrate how to:
 - Launch **Autopsy** and **Run as a administrator**  
 - Click **Create New Case**.  
 
-![](./images/a1.png)
+![image](https://github.com/user-attachments/assets/98f8abac-039b-4937-9a45-3afdc75d649d)
 
 - Enter a **Case Name** (e.g., `Autopsy1`).  
 - Choose a **Case Folder** location.  
 - Click **Next** → Click **Finish**.  
 
-![](./images/a2.png)
+![image](https://github.com/user-attachments/assets/4ccd6da5-5056-4fbd-87cc-b53cbabfb365)
 
 ### **2. Add the Virtual Disk as an Evidence Source**  
 - Click **Add Data Source**  → **Select Host**
 
-![](./images/a3.png)
+![image](https://github.com/user-attachments/assets/8422c766-cf33-461d-96b9-b440ca7fb21b)
 
 - Select **Local Disk** → **next** 
 
-![](./images/a4.png)
+![image](https://github.com/user-attachments/assets/1c4d6ef6-1ea5-44be-8b9b-cd7e6d6319c2)
 
 - Select Disk → **Choose the VHD drive (`Drive1`)**
 
-![](./images/a5.png)
+![image](https://github.com/user-attachments/assets/e3a986a0-6f99-4403-8856-6498c442e19a)
 
 - Click **Next** → Keep default settings → Click **Finish**.  
 - Wait for Autopsy to process the disk.  
@@ -105,12 +109,12 @@ The objective of this guide is to demonstrate how to:
 ### **3. Recover Deleted Files**  
 - Go to **File Views** (left panel).  
 
-![](./images/a6.png)
+![image](https://github.com/user-attachments/assets/d679b0c4-86a5-41b8-a53a-58038cf0fb8c)
 
 - Click **Deleted Files** → Find your deleted images.  
 - Right-click an image → Click **Extract File**.  
 
-![](./images/a7.png)
+![image](https://github.com/user-attachments/assets/cba0d44c-5aed-4eab-af01-145f99bf83b6)
 
 - Select a folder to see the recovered files (e.g., `C:\image_recovery`).  
 
