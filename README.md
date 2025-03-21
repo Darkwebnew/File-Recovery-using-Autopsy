@@ -132,7 +132,6 @@ The objective of this guide is to demonstrate how to:
 - Empty the **Recycle Bin**.  
 
 **Your virtual disk is completely removed!**  
- 
 ---
  
 
